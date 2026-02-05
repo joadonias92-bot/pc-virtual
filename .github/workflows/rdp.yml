@@ -20,7 +20,7 @@ jobs:
 
     - name: Enable RDP
       run: |
-        net user joadonias Joadonias@123 /add
+        net user joadonias Pc@2026Win! /add
         net localgroup administrators joadonias /add
         Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name "fDenyTSConnections" -Value 0
         Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
