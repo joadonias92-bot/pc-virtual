@@ -16,7 +16,7 @@ jobs:
 
     - name: Auth Ngrok
       run: |
-        .\ngrok\ngrok.exe authtoken 6DOTD2S3NYBHWU6UNUISQU5Q6M4RXP2G
+        .\ngrok\ngrok.exe authtoken 39Gi0uYKr7y2GEWWwYXkCGxuxxP_3mkRKmwsFUKRgqN3QbKBh
 
     - name: Enable RDP
       run: |
